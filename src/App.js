@@ -1,14 +1,15 @@
 import './App.css';
-import NavBar from './Components/NavBar'
+import NavBar from './Components/TopBar.js'
+import CarouselFade from './Components/Carousel.js';
+import StoreListing from './Components/StoreListing.js';
 
 function App() {
   return (
-    <>
-    <NavBar />
     <div className="App">
-      <h1>Hello World</h1>
+      <NavBar />
+      <CarouselFade />
+      <StoreListing />
     </div>
-    </>
   );
 }
 
